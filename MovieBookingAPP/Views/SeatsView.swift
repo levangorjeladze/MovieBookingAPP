@@ -108,13 +108,13 @@ struct SeatsView: View {
                 }
                 
             }
-                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
-                .clipped()
-                .foregroundColor(.white)
-                .background(.ultraThinMaterial)
-                .padding(.top,50)
-               .offset(y:showButton ? 0 : 350 )
-            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+            .clipped()
+            .foregroundColor(.white)
+            .background(.ultraThinMaterial)
+            .padding(.top,50)
+            .offset(y:showButton ? 0 : 350 )
+        }
         .frame(maxWidth: .infinity,maxHeight: .infinity,alignment: .top)
         .background(Color("backgroundColor"))
         .ignoresSafeArea()
